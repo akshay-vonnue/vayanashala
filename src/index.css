@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Trad:wght@100..400&display=swap");
+@import "tailwindcss";
 :root {
   background-color: white;
 }
@@ -7,9 +7,7 @@
 @theme {
   --color-primary-color: #821e1e;
   --color-secondary-color: #ba3838;
-  @theme {
-    --font-display: "playwrite", sans-serif;
-  }
+  --font-display: "playwrite", sans-serif;
 }
 
 .align-center {

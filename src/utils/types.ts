@@ -6,3 +6,8 @@ export interface SignUpArgs {
   phone: string;
   role: "member" | "librarian";
 }
+
+export interface LoginArgs {
+  email: string;
+  password: string;
+}
